@@ -8,5 +8,7 @@ namespace Sample1
 {
     class Book
     {
+        public double Length { get; set; }
+
     }
 }
