@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Sample1
 {
-    class Calc
+    class Calc : ICalc
     {
         public void Add()
         {
+            Console.WriteLine("add");
         }
 
         public void Div()
@@ -21,6 +22,10 @@ namespace Sample1
         }
 
         public void DivD()
+        {
+        }
+
+        public void Mult()
         {
         }
 
