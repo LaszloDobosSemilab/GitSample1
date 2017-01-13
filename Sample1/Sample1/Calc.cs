@@ -15,5 +15,13 @@ namespace Sample1
         public void Div()
         {
         }
+
+        public void DivB()
+        {
+        }
+
+        public void DivD()
+        {
+        }
     }
 }
